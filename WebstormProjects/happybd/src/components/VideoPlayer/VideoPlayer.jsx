@@ -6,7 +6,7 @@ export default function VideoPlayer() {
 
             <div className="video-content">
                 <video className="video" controls>
-                    <source src="/media/die-with-a-smile.MOV" type="video/mp4"/>
+                    <source src="./media/die-with-a-smile.MOV" type="video/mp4"/>
                 </video>
             </div>
         </div>

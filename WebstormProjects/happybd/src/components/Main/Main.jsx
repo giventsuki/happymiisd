@@ -9,7 +9,7 @@ import Timer from "../Timer/Timer";
 export default function Main() {
     return (
         <div className="main">
-            <ImageCard src={`/image/mochamilk/mm1.jpg`} alt={`mochamilk1`}/>
+            <ImageCard src={`./image/mochamilk/mm1.jpg`} alt={`mochamilk1`}/>
             <TitleTextSection text={`Как я мог начать говорить о нас, не начав с нас да`}/>
             <WishCard text={`Сұлулығыңның алдында жығыламын <br>
                                 Сенің аураң – солтүстік шұғыла <br>
@@ -17,7 +17,7 @@ export default function Main() {
             <ImageSlider title={``}/>
             <TitleTextSection text={`С тобой каждый день — это праздник, а сегодня этот праздник для тебя!
                     С днем рождения, Чокопайым сладкая`}/>
-            <ImageCard src={`/image/mochamilk/mm2.jpg`} alt={`mochamilk`}/>
+            <ImageCard src={`./image/mochamilk/mm2.jpg`} alt={`mochamilk`}/>
             <TitleTextSection text={`Совсем скоро это будем мы хихи &#9992;&#128158;`}/>
             <WishCard text={`Есірткідей қанымнан <br>
                     Жан болдың ғой табылған <br>
@@ -26,12 +26,12 @@ export default function Main() {
             <TitleTextSection text={`Желаю тебе только счастья, любви и исполнения всех самых заветных желаний!`}/>
             <DigitalCard/>
             <TitleTextSection text={`Хотя, зная нас вххвх, мы можем быть и такими (шутка &#128523)`}/>
-            <ImageCard src={`/image/mochamilk/mm3.jpg`} alt={`mochamilk3`}/>
+            <ImageCard src={`./image/mochamilk/mm3.jpg`} alt={`mochamilk3`}/>
             <TitleTextSection text={`Менің кішкентай ғана әлемім, осыған қарамастан сенімен біз махаббат пен бақытқа толы үүүлкен әлем құрай алдық &#127758; 
              Өзіңмен өткен әр мезетіме рахмет айтамын &#128151; &#128591;`}/>
-            <ImageCard src={`/image/airport/airport1.jpg`} alt={`airport1.jpg`}/>
+            <ImageCard src={`./image/airport/airport1.jpg`} alt={`airport1.jpg`}/>
             <Timer title={`Осталось до встречи:`} targetDate={'2024-12-21T09:50:00Z'}/>
-            <ImageCard src={`/image/airport/airport2.jpg`} alt={`airport2.jpg`}/>
+            <ImageCard src={`./image/airport/airport2.jpg`} alt={`airport2.jpg`}/>
             <WishCard text={`It's so sweet, knowing that you love me <br>
                 Though we don't need to say it to each other, sweet <br>
                 Knowing that I love you, and running my fingers through your hair <br>
@@ -41,7 +41,7 @@ export default function Main() {
             Ведь теперь я всегда буду видеть тебя каждый раз когда буду слышать хихи. Приянтого просмотра жаным!`}/>
             <VideoPlayer/>
             <WishCard text={`я тебя так сильно люплю пананчик мои`}/>
-            <ImageCard src={`/image/airport/waiting.jpg`} alt={`waiting.jpg`}/>
+            <ImageCard src={`./image/airport/waiting.jpg`} alt={`waiting.jpg`}/>
             <TitleTextSection text={`А теперь тебя ждет финальная версия этой странички, скорее кликай`}/>
             <WishCard id="finally-text" text={`Жаным менің, вот и наконец то спустя дооолгое время (3 дня) и тебе исполнилось
              20 лет🥺🤍 Құрдас хехе😋  В этот знаменательный день хочу пожелать тебе крепкого здоровья, чтобы 
@@ -64,7 +64,7 @@ export default function Main() {
              карамельно-фисташковая, клубично-чудная любимая🥺🤍🌎💗🍼🧸🍓🐾🤎🚗🎀✨🙏🏻😋😎🐥🥺 Еще раз поздравляю 
              с днем рождения, жарқыным!🥺🤍Люблю очень сильно фсьо давай✨💗🎀`}/>
             <TitleTextSection text={`чувствую после этого будет так`}/>
-            <ImageCard src={`/image/mochamilk/mm4.jpg`} alt={`mochamilk4`}/>
+            <ImageCard src={`./image/mochamilk/mm4.jpg`} alt={`mochamilk4`}/>
         </div>
     )
 }
