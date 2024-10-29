@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/happymissd/static/css/main.2f0cd7ee.css",
+    "main.js": "/happymissd/static/js/main.1312d5b1.js",
+    "index.html": "/happymissd/index.html",
+    "main.2f0cd7ee.css.map": "/happymissd/static/css/main.2f0cd7ee.css.map",
+    "main.1312d5b1.js.map": "/happymissd/static/js/main.1312d5b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f0cd7ee.css",
+    "static/js/main.1312d5b1.js"
+  ]
+}
