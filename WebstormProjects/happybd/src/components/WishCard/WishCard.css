@@ -1,0 +1,41 @@
+.wish-button {
+    position: relative;
+    background: var(--pink);
+    box-shadow: 0 0 5px var(--pink), 0 0 8px var(--pink);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    margin: 10px;
+}
+
+.wish-button:after,
+.wish-button:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 50%;
+    right: 0;
+    z-index: -1;
+    background: var(--pink);
+    box-shadow: 0 0 5px var(--pink);
+    transition: all 0.3s ease
+}
+.wish-button:before {  top: 0;}
+.wish-button:after { bottom: 0;}
+
+.wish-button:hover {
+    background-color: transparent;
+    color: var(--pink);
+    box-shadow: 0 5px 3px -3px var(--pink), 0 -5px 3px -3px var(--pink),
+    0 5px 3px -3px var(--pink), 0 -5px 3px -3px var(--pink);
+}
+
+.wish-button:hover:after,
+.wish-button:hover:before{
+    height: 0;
+    background-color: var(--pink);
+}

@@ -1,0 +1,34 @@
+.video-wrapper {
+    margin: 30px auto;
+}
+.video-content {
+    width: 100%; /* Ширина контейнера 100% */
+}
+.video {
+    padding: 0;
+    border: 2px solid var(--pink);
+    background: var(--black);
+    margin: 0 auto;
+    display: block; /* Блоковый элемент для удаления пробелов внизу */
+    animation: neon-pulse 1.5s infinite; /* Применяем анимацию */
+}
+
+@media screen and (max-width: 480px) {
+    .video {
+        width: 200px;
+        height: 95vh;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .video {
+        width: 600px;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .video {
+        width: 600px;
+        height: 80vh;
+    }
+}

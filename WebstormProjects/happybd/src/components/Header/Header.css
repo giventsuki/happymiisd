@@ -1,0 +1,81 @@
+
+
+/*-----------MUSIC BUTTON*/
+#switch-music {
+    position: fixed; /* Позиция фиксированная */
+    bottom: 20px; /* Расположение внизу */
+    right: 20px; /* Расположение справа */
+    color: #ff9aff; /* Цвет текста */
+    border: 1px solid #ff9aff; /* Бордер */
+    background-color: transparent; /* Фон прозрачный */
+    padding: 10px 20px; /* Отступы для кнопки */
+    font-size: 1.3rem; /* Размер шрифта */
+    border-radius: 5px; /* Скругление углов */
+    overflow: hidden; /* Обрезка содержимого, если выходит за пределы */
+    cursor: pointer; /* Курсор при наведении */
+    box-shadow: 0 0 5px #ff9aff, 0 0 10px #ff9aff; /* Начальный эффект неона */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+#switch-music:after {
+    position: absolute; /* Абсолютное позиционирование для псевдоэлемента */
+    content: "";
+    width: 0; /* Начальная ширина */
+    height: 100%; /* Высота равна высоте кнопки */
+    top: 0;
+    left: 0; /* Начальное положение слева */
+    z-index: -1; /* За кнопкой */
+    background: #ff9aff; /* Цвет фона псевдоэлемента */
+    box-shadow: 0 0 20px #ff9aff; /* Эффект неона */
+    transition: width 0.3s ease; /* Плавный переход ширины */
+}
+
+#switch-music:hover {
+    color: #fff; /* Цвет текста при наведении */
+}
+
+#switch-music:hover:after {
+    width: 100%; /* Ширина псевдоэлемента при наведении */
+}
+
+#switch-music:active {
+    bottom: 10px; /* Смещение кнопки при нажатии */
+}
+
+@media screen and (max-width: 480px) {
+    #switch-music {
+        width: 25%;
+        height: 3%;
+    }
+    h1{
+        color: var(--orange);
+        margin: 10px auto;
+        max-width: 480px;
+
+    }
+
+}
+@media screen and (max-width: 1040px) {
+    #switch-music {
+        width: 25%;
+        height: 5%;
+    }
+    h1{
+        color: var(--orange);
+        margin: 10px auto;
+        max-width: 800px;
+        font-size: 3rem;
+    }
+
+}
+@media screen and (min-width: 1040px) {
+
+    h1{
+        color: var(--orange);
+        margin: 10px auto;
+        max-width: 1000px;
+        font-size: 4rem;
+    }
+
+
+}

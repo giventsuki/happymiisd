@@ -1,0 +1,32 @@
+.timer{
+    border: 3px solid var(--pink);
+    animation: neon-pulse 3s infinite; /* Применяем анимацию */
+}
+@media screen and (max-width: 480px) {
+    .timer{
+        width:440px;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .timer{
+        width:700px;
+        margin: 20px auto;
+        padding: 15px;
+        font-size: 24px;
+        border: 3px solid var(--pink);
+        animation: neon-pulse 3s infinite; /* Применяем анимацию */
+    }
+}
+@media screen and (min-width: 1040px) {
+    .timer{
+        width:800px;
+        margin: 30px auto;
+        padding: 20px;
+        font-size: 28px;
+    }
+}

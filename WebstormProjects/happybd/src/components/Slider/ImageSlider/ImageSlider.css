@@ -1,0 +1,75 @@
+
+.slide-img {
+    padding: 40px;
+    object-fit: contain;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: var(--orange);
+}
+.prev-btn {
+    left: 10px; /* Расположение кнопки "Назад" */
+}
+.next-btn {
+    right: 10px; /* Расположение кнопки "Вперед" */
+}
+
+@media screen and (max-width: 480px) {
+    .swiper{
+        width: 470px;
+        z-index: 0;
+        margin: 0 auto
+    }
+    .swiper-wrapper{
+        width: 470px;
+    }
+    .swiper-slide {
+        width: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .swiper{
+        width: 800px;
+        z-index: 0;
+        margin: 0 auto
+    }
+    .swiper-wrapper{
+        width: 800px;
+    }
+    .swiper-slide {
+        width: 800px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 1040px) {
+    .swiper{
+        width: 900px;
+        z-index: 0;
+        margin: 0 auto
+    }
+    .swiper-wrapper{
+        width: 900px;
+    }
+    .swiper-slide {
+        width: 900px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
